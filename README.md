@@ -7,6 +7,8 @@ step 2: rename Scival csv-file to 'scival_export.csv' and place it in the same f
 
 step 3: run python script: the script will check via the Pure-API if the EID is listed in Pure and - if so - will add the Pure-ID + SDG-uri to the import file for Pure
 
-step 4: import the generated Excel file via Administrator > Jobs > Bulk-change keywords on content
+step 4: open the generated import2pure.csv and split the values to columns - copy the data to the dedicated import file
+
+step 5: import the Excel file via Administrator > Jobs > Bulk-change keywords on content
 
 settings: content type = ResearchOutput / logical name = sustainabledevelopmentgoals
