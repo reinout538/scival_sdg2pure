@@ -9,6 +9,4 @@ step 3: run python script: the script will check via the Pure-API if the EID is 
 
 step 4: import the generated Excel file via Administrator > Jobs > Bulk-change keywords on content
 
-settings:
-
-content type = ResearchOutput / logical name = sustainabledevelopmentgoals
+settings: content type = ResearchOutput / logical name = sustainabledevelopmentgoals
