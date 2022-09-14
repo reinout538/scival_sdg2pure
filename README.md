@@ -5,7 +5,7 @@ step 1: make SciVal export: https://github.com/reinout538/scival_sdg2pure/blob/m
 
 step 2: rename Scival csv-file to 'scival_export.csv' and place it in the same folder as the python script
 
-step 3: run python script: the script will check via the Pure-API if the EID is listed in Pure and - if so - will add the Pure-ID + SDG-uri to the import file for Pure
+step 3: run python script: https://github.com/reinout538/scival_sdg2pure/blob/main/sdg2pure_SciVal_export.py The script will check via the Pure-API if the EID is listed in Pure and - if so - will add the Pure-ID + SDG-uri to the import file for Pure
 
 step 4: open the generated import2pure.csv and split the values to columns - copy the data to the dedicated import file: https://github.com/reinout538/scival_sdg2pure/blob/main/bulk-change-keywords-on-content-sample.xls
 
