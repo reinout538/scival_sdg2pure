@@ -1,5 +1,5 @@
 # scival_sdg2pure
-create Pure SDG-keyword import file from SciVal export
+Procedure for creating Pure SDG-keyword import file from SciVal-export of selected publications 
 
 step 1: make SciVal export: https://github.com/reinout538/scival_sdg2pure/blob/main/Manual_export_publication_SDGs_SciVal.docx to create a csv-export from SciVal containing EID, DOI and SDG-label
 
