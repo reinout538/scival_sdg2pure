@@ -12,3 +12,9 @@ step 4: open the generated import2pure.csv and split the values to columns - cop
 step 5: import the Excel file via Administrator > Jobs > Bulk-change keywords on content
 
 settings: content type = ResearchOutput / logical name = sustainabledevelopmentgoals
+
+# aurora sdg2pure (after SciVal-import)
+
+step 1: make a selection of (UUIDs of) Pure-records with abstract and without SDG-labels and created date after last batch update of SDG-labels
+
+step 2: run script get_sdgs_aurora_api.py to get 99%+ aurora AI sdg-labels (output = import file for Pure)
